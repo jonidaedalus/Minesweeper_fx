@@ -1,0 +1,53 @@
+.root{
+    -fx-font-size: 16pt;
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #8f0603,#005277, #0d274b);
+    -fx-font-family: "Joystix Monospace";
+
+}
+.label{
+    -fx-effect: dropshadow( one-pass-box , rgba(255, 244, 240, 0), 1, 0.0 , 0 , 1 );
+}
+.label-1{
+    -fx-font-size: 45px;
+    -fx-color: #ecf0f1;
+    -fx-font-family: "Joystix Monospace";
+
+}
+
+.button {
+    -fx-background-color:
+            #3498db,
+            linear-gradient(#29689b, #1a4c67),
+            radial-gradient(center 25% 25%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 100;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Joystix Monospace";
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+.button:hover{
+    -fx-background-color: #cd5b00;
+
+    -fx-font-weight: bold;
+}
+.button:pressed{
+    -fx-background-color: #cd5b00;
+    -fx-font-weight: bold;
+}
+.combo-box {
+    -fx-background-insets: 0,1,2,0;
+    /*-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+    -fx-font-family: "Joystix Monospace";
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 100;
+    -fx-background-color:
+            #3498db,
+            linear-gradient(#29689b, #1a4c67),
+            radial-gradient(center 25% 25%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
+.rectangle:hover{
+    -fx-stroke: #737372;
+}
